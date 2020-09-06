@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "22aaa17e00f7effee000321ab87e8307",
+    "revision": "e38e1a6dfb1aa6a495a56115d82533c1",
     "url": "/react-netlfix-clone/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-netlfix-clone/static/css/2.0dd4e90a.chunk.css"
   },
   {
-    "revision": "bd6ca3b3e5fc63ec8904",
-    "url": "/react-netlfix-clone/static/css/main.81c323c2.chunk.css"
+    "revision": "11959713599138701dc7",
+    "url": "/react-netlfix-clone/static/css/main.41b666d2.chunk.css"
   },
   {
     "revision": "82bb8919fd3d4c12366f",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-netlfix-clone/static/js/2.3c192d2c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "bd6ca3b3e5fc63ec8904",
-    "url": "/react-netlfix-clone/static/js/main.e626325b.chunk.js"
+    "revision": "11959713599138701dc7",
+    "url": "/react-netlfix-clone/static/js/main.c2126a34.chunk.js"
   },
   {
     "revision": "ecc2d902fc58f676a1c7",
