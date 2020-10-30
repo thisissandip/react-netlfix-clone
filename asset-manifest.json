@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/react-netlfix-clone/static/css/main.502818ee.chunk.css",
-    "main.js": "/react-netlfix-clone/static/js/main.b9235ea0.chunk.js",
-    "main.js.map": "/react-netlfix-clone/static/js/main.b9235ea0.chunk.js.map",
+    "main.js": "/react-netlfix-clone/static/js/main.f1f2ba3b.chunk.js",
+    "main.js.map": "/react-netlfix-clone/static/js/main.f1f2ba3b.chunk.js.map",
     "runtime-main.js": "/react-netlfix-clone/static/js/runtime-main.bd833e03.js",
     "runtime-main.js.map": "/react-netlfix-clone/static/js/runtime-main.bd833e03.js.map",
     "static/css/2.0dd4e90a.chunk.css": "/react-netlfix-clone/static/css/2.0dd4e90a.chunk.css",
     "static/js/2.3e2cab07.chunk.js": "/react-netlfix-clone/static/js/2.3e2cab07.chunk.js",
     "static/js/2.3e2cab07.chunk.js.map": "/react-netlfix-clone/static/js/2.3e2cab07.chunk.js.map",
     "index.html": "/react-netlfix-clone/index.html",
-    "precache-manifest.375fa4c0b420681b703fc39cf8de3d2a.js": "/react-netlfix-clone/precache-manifest.375fa4c0b420681b703fc39cf8de3d2a.js",
+    "precache-manifest.40bef51afe00ec8e75585dfe28766866.js": "/react-netlfix-clone/precache-manifest.40bef51afe00ec8e75585dfe28766866.js",
     "service-worker.js": "/react-netlfix-clone/service-worker.js",
     "static/css/2.0dd4e90a.chunk.css.map": "/react-netlfix-clone/static/css/2.0dd4e90a.chunk.css.map",
     "static/css/main.502818ee.chunk.css.map": "/react-netlfix-clone/static/css/main.502818ee.chunk.css.map",
@@ -24,6 +24,6 @@
     "static/css/2.0dd4e90a.chunk.css",
     "static/js/2.3e2cab07.chunk.js",
     "static/css/main.502818ee.chunk.css",
-    "static/js/main.b9235ea0.chunk.js"
+    "static/js/main.f1f2ba3b.chunk.js"
   ]
 }

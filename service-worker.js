@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/react-netlfix-clone/precache-manifest.375fa4c0b420681b703fc39cf8de3d2a.js"
+  "/react-netlfix-clone/precache-manifest.40bef51afe00ec8e75585dfe28766866.js"
 );
 
 self.addEventListener('message', (event) => {
