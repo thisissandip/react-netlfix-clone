@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e38e1a6dfb1aa6a495a56115d82533c1",
+    "revision": "7a6670710d81ef9901ecd1f848046ba4",
     "url": "/react-netlfix-clone/index.html"
   },
   {
-    "revision": "82bb8919fd3d4c12366f",
+    "revision": "401c71a64400a3677b35",
     "url": "/react-netlfix-clone/static/css/2.0dd4e90a.chunk.css"
   },
   {
-    "revision": "11959713599138701dc7",
-    "url": "/react-netlfix-clone/static/css/main.41b666d2.chunk.css"
+    "revision": "dd63d007155cc33e4c17",
+    "url": "/react-netlfix-clone/static/css/main.502818ee.chunk.css"
   },
   {
-    "revision": "82bb8919fd3d4c12366f",
-    "url": "/react-netlfix-clone/static/js/2.3c192d2c.chunk.js"
+    "revision": "401c71a64400a3677b35",
+    "url": "/react-netlfix-clone/static/js/2.3e2cab07.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/react-netlfix-clone/static/js/2.3c192d2c.chunk.js.LICENSE.txt"
+    "url": "/react-netlfix-clone/static/js/2.3e2cab07.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "11959713599138701dc7",
-    "url": "/react-netlfix-clone/static/js/main.c2126a34.chunk.js"
+    "revision": "dd63d007155cc33e4c17",
+    "url": "/react-netlfix-clone/static/js/main.b9235ea0.chunk.js"
   },
   {
     "revision": "ecc2d902fc58f676a1c7",
