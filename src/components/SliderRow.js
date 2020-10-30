@@ -91,7 +91,6 @@ class SliderRow extends Component {
 	}
 
 	slideright(e) {
-		const leftbtn = document.querySelector('.left-btn');
 		const row = this.row.current;
 		let count = this.state.leftbtncounter;
 
@@ -101,6 +100,14 @@ class SliderRow extends Component {
 				leftbtncounter: this.state.leftbtncounter + 1,
 			});
 		}
+		const allrightbtns = document.querySelectorAll('.right-btn');
+		allrightbtns.forEach((item) => {
+			if (this.state.leftbtncounter == 1) {
+				item.style.opacity = '0';
+			} else {
+				item.style.opacity = '1';
+			}
+		});
 	}
 
 	slideleft(e) {
