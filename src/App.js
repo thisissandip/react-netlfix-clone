@@ -2,7 +2,8 @@ import React, {Component} from 'react';
 import allrequest from "./apifetches";
 import SliderRow from "./components/SliderRow";
 import Header from "./components/Header";
-import Navbar from "./components/Navbar"
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer"
 
 class App extends Component {
     constructor(props) {
@@ -33,8 +34,9 @@ class App extends Component {
             <SliderRow title={"Romance"} URL={allrequest.getRomance} potrait={false} />
             <SliderRow title={"Marvel Superheroes"} URL={allrequest.getMarvel} potrait={true} />
             <SliderRow title={"Upcoming Movies"} URL={allrequest.getUpcomoing} potrait={false} />
-
+            <Footer />
             </div>
+            
             </>
          );
     }

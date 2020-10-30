@@ -49,7 +49,7 @@ class Poster extends Component {
         // this.props.addBorder ? 
         return ( 
             <>
-        {this.state.potrait ? <div ref={this.item} style={Potrait} className="potrait-item" tabindex="0"
+        {this.state.potrait ? <div ref={this.item} style={Potrait} className="potrait-item" 
                             onClick={() => {
                                 this.props.removeInfo();
                                 this.removeallBorders();
@@ -59,7 +59,7 @@ class Poster extends Component {
                             <img alt="More Info" className="poster-down-arrow" src={require('../imgs/down_arrow.png') } />
                         </div> 
                         :
-                        <div ref={this.item} style={Landscape} className="item" tabindex="0"
+                        <div ref={this.item} style={Landscape} className="item" 
                         onClick={() => {
                             this.props.removeInfo();
                             this.removeallBorders();
