@@ -77,29 +77,36 @@ ul {
 	right: 50px;
 }
 
-.btn-cont {
-	display: flex;
-	flex-direction: row-reverse;
-	justify-content: space-between;
+.slider-row {
+	position: relative;
 	width: 100vw;
-	/* 	background-color: rgb(107, 98, 98, 0.5); */
-	position: absolute;
-	z-index: 10;
 }
+
 .left-btn,
 .right-btn {
-	position: relative;
+	position: absolute;
 	color: white;
 	z-index: 10;
-	background-color: tomato;
-	padding: 1rem;
+	background-color: rgba(0, 0, 0, 0.9);
+	border-radius: 2px;
+	padding: 0.8rem;
+	cursor: pointer;
+	z-index: 10;
+	top: 60%;
+	transform: translateY(-50%);
 }
 .left-btn {
+	right: 0rem;
 	margin-right: 10px;
 }
 
 .right-btn {
+	left: 0rem;
 	margin-left: 0px;
+}
+
+.arrow {
+	width: 25px;
 }
 
 .fa-search,
@@ -234,7 +241,12 @@ ul {
 	margin: 0 4px;
 	transition: 0.5s transform cubic-bezier(0.65, 0, 0.35, 1);
 	outline: none;
+	min-width: 300px;
 }
+
+/*  .item {
+	min-width: 300px;
+}  */
 
 .poster-down-arrow {
 	opacity: 0;

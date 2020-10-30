@@ -35,12 +35,23 @@ class SliderRow extends Component {
 			console.log(this.state.fetchedResults);
 		});
 
-		/* 		if (this.state.leftbtncounter == 1) {
-			const rightbtns = document.querySelectorAll('.right-btn');
-			rightbtns.forEach((item) => {
+		const allrightbtns = document.querySelectorAll('.right-btn');
+		allrightbtns.forEach((item) => {
+			if (this.state.leftbtncounter == 1) {
 				item.style.opacity = '0';
-			});
-		} */
+			}
+		});
+	}
+
+	componentDidUpdate() {
+		const allrightbtns = document.querySelectorAll('.right-btn');
+		allrightbtns.forEach((item) => {
+			if (this.state.leftbtncounter == 1) {
+				item.style.opacity = '0';
+			} else {
+				item.style.opacity = '1';
+			}
+		});
 	}
 
 	addInfo(backdrop, title, description) {
@@ -85,7 +96,7 @@ class SliderRow extends Component {
 		let count = this.state.leftbtncounter;
 
 		if (this.state.leftbtncounter !== 5) {
-			row.style.transform = `translateX(-${count * 20}%)`;
+			row.style.transform = `translateX(-${count * 100}%)`;
 			this.setState({
 				leftbtncounter: this.state.leftbtncounter + 1,
 			});
@@ -98,17 +109,8 @@ class SliderRow extends Component {
 		let rightcount = count - 2;
 		console.log(rightcount);
 
-		/* 		if (count == 5) {
-			row.style.transform = `translateX(-60%)`;
-		} else if (count == 4) {
-			row.style.transform = `translateX(-40%)`;
-		} else if (count == 3) {
-			row.style.transform = `translateX(-20%)`;
-		} else if (count == 2) {
-			row.style.transform = `translateX(0%)`;
-		} */
 		if (count > 1 && count < 6) {
-			row.style.transform = `translateX(-${rightcount * 20}%)`;
+			row.style.transform = `translateX(-${rightcount * 100}%)`;
 			this.setState({
 				leftbtncounter: this.state.leftbtncounter - 1,
 			});
@@ -134,18 +136,17 @@ class SliderRow extends Component {
 
 		return (
 			<>
-				<div className='slider-title'>{this.state.title}</div>
-				<div className='btn-cont'>
-					{' '}
+				<div className='slider-row'>
 					<div className='left-btn' onClick={(e) => this.slideright(e)}>
-						Left
+						<img src={require('../imgs/rightarrow.png')} className='arrow' />
 					</div>
 					<div className='right-btn' onClick={(e) => this.slideleft(e)}>
-						RIGHT
+						<img src={require('../imgs/leftarrow.png')} className='arrow' />
 					</div>
-				</div>
-				<div ref={this.row} className='slider-container'>
-					{allMovies}
+					<div className='slider-title'>{this.state.title}</div>
+					<div ref={this.row} className='slider-container'>
+						{allMovies}
+					</div>{' '}
 				</div>
 
 				<div ref={this.movieInfo} className='movie-info-container'>
